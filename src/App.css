@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  padding: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +15,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: rgb(186,55,99);
+  background: linear-gradient(220deg, rgba(186,55,99,1) 0%, rgba(45,59,153,1) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+img {
+ margin-right: 100vh;
+  margin-top: 3vh;
+}
+btn {
+  padding: 150vh;
+}
+ .card-body {
+  border-radius: 50%;
 }
